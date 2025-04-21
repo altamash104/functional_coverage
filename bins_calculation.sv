@@ -43,7 +43,7 @@ though a1 is a vector bin a1[5] cannot be created because the value is included 
 */
 
 //eg.4
-/*
+
 class example;
   int clk;
   logic[7:0]address;
@@ -58,5 +58,5 @@ class example;
     c1 x val:cross clk,valid;// 22 x 2=44
     c1xvalxv:cross c1,valid,opcode;//22 x 2 x8=352
   endgroup
-  */
+  
   //total number of bins = 22+8+256+44+352=682
